@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS document : c'est bien de rappeler qu'on est en UTF-8 */ 
+
+html{background:grey;
+    width: 960px;
+	min-height: 528px;
+    margin: 0 auto;
+    padding : 0 auto;
+    position : relative;}
+body {background: trasparent;
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    padding : 0 auto;
+    }
+#menu {
+    background-color:pink;
+    opacity: 0.9;
+    width : 210px;
+    height: 970px;
+}
+    
+#navigation ul {list-style :none;}
+#navigation li {
+    display: block;
+    margin-left:-23%;
+    margin-top:-10%;
+    }
+#navigation li a { 
+    font-size:1em;
+    color:black;
+    background-color: grey;
+    text-decoration: none;
+    margin:0 auto;
+    width: 200px;
+    padding:15px 0;
+    text-align: center;
+    float: left;
+    border-left: solid 8px black; /* bordure du menu*/ 
+    }
+#navigation li a:hover {
+    color:purple;
+    background-color: grey;}
+
+#rs ul {list-style :none;}
+#rs li {
+    display: inline;
+    float:left;
+    margin-left:-35px;
+    margin-right: 20px;
+    margin-top:250px;
+    padding:10px 15px;
+    width: 26px;
+    height:26px;
+    }
+#rs li:hover {
+    opacity:0.5;
+    }
+footer{
+    width:210px;
+    height:118px;
+    margin-top:549px;
+    background: pink; }
+footer ul {list-style :none;}
+footer li {display:block;
+    color:bleu;
+    margin-left:-30px;
+    font-size: 80px;
+    line-height: 2.0;
+font-family: 'museo_sans500', arial, sans-serif;}
+footer li a { color : pink;
+        font-size: 15px;
+   }
+footer #mailto {
+    text-transform: uppercase;
+    color:pink;
+
+    }
+footer #mailto a {
+    color:black;}
+
+
+/* contenu */
+article {
+    width:550px;
+    height: 350px;
+	color:purple;
+    opacity: 0.8;
+    float:left;
+    margin-left:325px;
+    margin-top:-670px;
+}
+
+article .item {
+	border-bottom: 1px solid #595959;
+}
